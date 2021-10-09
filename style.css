@@ -136,4 +136,10 @@ main .contact {
 	margin-left: 15px;
 	
 }
-
+/*responsive*/
+@media (min-width: 600px) {
+	.home {
+		margin: 50px auto;
+	}
+	
+}
