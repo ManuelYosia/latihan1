@@ -1,0 +1,139 @@
+/*body*/
+body {
+	background-color: #111;
+	font-family: helvetica sans-serif;
+	height: 3000px
+}
+/*header*/
+.header {
+	background-color: #222;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+.header h1 {margin: 0px;}
+/*navbar*/
+nav {
+	background-color: red;
+	height: 40px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+}
+.button {
+	box-sizing: border-box;
+	height: 100%;
+}
+.button a {
+	box-sizing: border-box;
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: inherit;
+	padding: 5px 10px;
+}
+.button a:hover{
+	background-color: #9E0000;
+}
+/*akhir nav-button*/
+.f-size-large {font-size: 2.375em;}
+.f-size-medium {font-size: 1,25em;}
+.f-size-small {font-size: 1em;}
+
+.f-color-white {color: white;}
+.f-color-grey {color: grey;}
+/*home*/
+.home {
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.home h1 {margin-bottom: 0px;}
+.home p {
+	margin-top: 5px;
+}
+.home h2 {
+	height: 400px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+/*akhir home*/
+
+/*main*/
+main {
+	margin: 0px 10px;
+	padding: 5px;
+}
+
+main .about {
+	padding: 50px 25px;
+	margin-bottom: 300px;
+}
+
+main .about p {
+	line-height: 1.5;
+	text-align: left;
+}
+/*skill*/
+main .skill {
+	padding: 50px 25px;
+	margin-bottom: 200px;
+}
+.skill .content-skill .bar p {
+	margin-left: 5px
+} /*angka persentasi pd bar*/
+.content-skill {
+	display: flex;
+	flex-direction: column;
+}
+.skill .bar {
+	width: 100%;
+	height: 30px;
+	background-color: #222; 
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: flex-end;
+/*	bar abu abu pada bar persen */
+}
+.skill .skill1 .bar .isian-bar {
+	background-color: white;
+	width: 70%;
+	height: 30px;
+/*	persentase bar pada isian skill 1 */
+}.skill .skill2 .bar .isian-bar {
+	background-color: white;
+	width: 50%;
+	height: 30px;
+/*	persentase bar pada isian skill 1 */
+}.skill .skill3 .bar .isian-bar {
+	background-color: white;
+	width: 0.1%;
+	height: 30px;
+/*	persentase bar pada isian skill 1 */
+}
+/*contact*/
+main .contact {
+	padding: 50px 25px;
+} 
+.contact i {
+	color: white;
+}
+.contact h2 {margin: 25px 0px;}
+.contact div {
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+}
+.contact div p {
+	margin-left: 15px;
+	
+}
+
